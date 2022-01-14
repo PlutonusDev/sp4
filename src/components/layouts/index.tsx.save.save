@@ -1,0 +1,12 @@
+import { useTheme } from "next-themes";
+
+export default function MainLayout({ children, ...rest }) {
+	return (
+		<>
+			{/* SEO */}
+			<main>
+				{children}
+			</main>
+		</>
+	}
+}
